@@ -37,12 +37,13 @@
     margin-right: 5%;
  }
 
- #circle {
-   width: 150px;
-   height: 150px;
-   
-   border-radius: 50px;
+ .text {
+  display: flex;
+  flex-direction: column;
+  color: #f1f1f1;
+  font-size: 20px;
  }
+
 
  .button {
    border: none;
@@ -76,17 +77,16 @@
  .buttons {
   display: inline-flex;
  }
+
  .main {
-    margin: 10% 25%;
-    width: 90%;
-    /* transform: scale(0.7); */
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10%;
  }
  
- .elements {
-   display: flex;
-   flex-direction: column;
-   color: #f1f1f1;
- }
+ 
  
  #hello {
    font-size: 70px;
@@ -100,12 +100,41 @@
    padding-bottom: 60px;
  }
 
- #info {
-   font-size: 20px;
+ .idea {
+  margin: auto;
+  width: 70%;
+  padding: 100px;
+
  }
 
  hr {
-   margin: 10px;
+   margin-bottom: 3%;
+ }
+
+ #headline {
+  font-size: 45px;
+  margin-bottom: 2%;
+ }
+ 
+.visual {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#visual-text {
+  margin-bottom: 5%;
+}
+
+.visual-section {
+  margin-bottom: 5%;
+}
+
+
+
+
+ #info {
+   font-size: 20px;
  }
 
  .footer-info p {
@@ -115,15 +144,6 @@
  .about, .projects {
    margin: 7% 10%;
    font-size: 20px;
- }
-
- .projects {
-    padding-top:0%;
-    padding-bottom:10%;
-    position: relative;
-    overflow: hidden;
-    width: 40%;
-    height: 300px;
  }
 
  #slide-h3 {
@@ -233,60 +253,6 @@
  .credits-li {
   font-size: 20px;
   margin-bottom: 1%;
- }
-
- .svg-heart-container {
-  margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
-
- #heart {
-  width: 150px;
-  stroke: var(--magenta);
-  fill: var(--grey);
-  stroke-dasharray: 57;
-  stroke-dashoffset: 57;
- }
-
- #heart.like {
-  animation: 2s ease-in forwards like,
-  0.8s linear 2s 2 forwards beat;
- }
-
- #heart.unlike {
-  animation: 2s ease-out forwards unlike;
- }
-
- @keyframes like {
-  0% {
-    stroke-dashoffset: 57;
-  }
-
-  70% {
-    stroke-dashoffset: 0;
-    fill: var(--grey);
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-    fill: var(--magenta);
-  }
- }
-
- @keyframes beat {
-  0% {
-    transform: scale(1,1);
-  }
-
-  50% {
-    transform: scale(0.9, 0.9);
-  }
-
-  100% {
-    transform: scale(1,1);
-  }
  }
 
  .footer {
