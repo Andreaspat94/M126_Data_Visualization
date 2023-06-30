@@ -86,7 +86,16 @@
     margin-top: 10%;
  }
  
- 
+ li {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    list-style-type: circle;
+    color: white;
+ }
+
+ ul {
+  margin-bottom: 5%;
+ }
  
  #hello {
    font-size: 70px;
@@ -100,16 +109,17 @@
    padding-bottom: 60px;
  }
 
- .idea {
+ .idea, .team {
   margin: auto;
   width: 70%;
   padding: 100px;
-
  }
 
  hr {
    margin-bottom: 3%;
  }
+ 
+
 
  #headline {
   font-size: 45px;
