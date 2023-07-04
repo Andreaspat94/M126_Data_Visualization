@@ -109,10 +109,10 @@
    padding-bottom: 60px;
  }
 
- .idea, .team {
+ .idea, .credits {
   margin: auto;
   width: 70%;
-  padding: 100px;
+  padding-left: 100px;
  }
  
  .presentation {
@@ -142,10 +142,14 @@
 
 
  #headline {
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 2%;
  }
  
+ #datasources {
+    
+ }
+
 .visual {
   display: flex;
   flex-direction: column;
