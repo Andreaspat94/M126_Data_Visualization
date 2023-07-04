@@ -114,6 +114,22 @@
   width: 70%;
   padding: 100px;
  }
+ 
+ .presentation {
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 5%;
+ }
+
+#presentation {
+  align-self: center;
+ }
+
+ video {
+  margin-top: 1%;
+  align-self: center;
+ }
 
  hr {
    margin-bottom: 3%;
